@@ -81,7 +81,7 @@ entry in `package.json`, so it loads first.
 |---|---|---|
 | `isc2/cissp` | `ISC2.CISSP` | the basic case |
 | `isc2/cgrc` | `ISC2.CGRC` | `supersedes` (CGRC was CAP) |
-| `comptia/security_plus` | `CompTIA.Security+` | a code that needs a different directory name |
+| `comptia/security_plus` | `CompTIA.Security+` | `qualifiesForRoles`, and a code that needs a different directory name |
 | `isaca/ccp` | `CMMC.CCP` | `prerequisites`, and an issuer that differs from the code prefix |
 | `cyberab/rp` | `CYBERAB.RP` | `registration` |
 | `cyberab/c3pao` | `CYBERAB.C3PAO` | `accreditation`, organizational scope |
@@ -94,6 +94,12 @@ entry in `package.json`, so it loads first.
 |---|---|---|
 | cyberab.org | CMMC, SCF and SCA ecosystem roles | [`importers/cyberab/`](importers/cyberab/) |
 | DoD 8140 qualification matrix (`@zerobias-org/framework-dod-dcwf-v2_1`) | which certifications qualify for which DCWF work roles | none yet |
+| NIST NICE Framework 2017 to v1.0.0 mapping ([data.nist.gov](https://doi.org/10.18434/mds2-2502)) | the OPM code of each NICE 2024 work role | none yet |
+
+`qualifiesForRoles` links to the catalog's NICE 2024 work roles (`nist.nice.role`).
+DCWF work role codes are OPM codes, so a DCWF role maps to the NICE 2024 role
+with the same OPM code. For example, DCWF 511 Cyber Defense Analyst is OPM 511,
+which is `PD-WRL-001` Defensive Cybersecurity (`pd_wrl_001`).
 | Issuer websites | everything else | none (curated by hand) |
 
 Each source issuer is a vendor. Importers live under `importers/` and are never

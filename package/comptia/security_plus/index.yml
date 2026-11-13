@@ -11,5 +11,24 @@ aliases:
 vendors:
   - comptia
 standards: []
-qualifiesForRoles: []
+qualifiesForRoles:
+  - dd_wrl_005
+  - dd_wrl_006
+  - dd_wrl_007
+  - dd_wrl_008
+  - io_wrl_002
+  - io_wrl_003
+  - io_wrl_004
+  - io_wrl_005
+  - io_wrl_007
+  - og_wrl_002
+  - og_wrl_003
+  - og_wrl_011
+  - og_wrl_012
+  - og_wrl_014
+  - og_wrl_016
+  - pd_wrl_001
+  - pd_wrl_003
+  - pd_wrl_004
+  - pd_wrl_007
 prerequisites: []
