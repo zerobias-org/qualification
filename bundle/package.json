@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/qualification-bundle",
+  "version": "0.0.0",
+  "description": "All installable qualifications",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/qualification.git",
+    "directory": "bundle/"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org"
+  },
+  "zerobias": {
+    "package": "bundle.all-qualifications",
+    "import-artifact": "bundle",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {}
+}
