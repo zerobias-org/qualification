@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/qualification-isc2-cissp",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/qualification-isc2-cissp",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-isc2": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-isc2": {
+      "version": "1.0.2",
+      "integrity": "sha512-feow35XEV4yvxqLvZl4k2RWb5O5WlePjEZnXYTTfSVkHBkJx+z1GaNVCrboWhAAVWgMN/jQEGqxpaiZn4It7yw==",
+      "license": "ISC"
+    }
+  }
+}

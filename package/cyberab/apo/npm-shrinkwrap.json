@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/qualification-cyberab-apo",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/qualification-cyberab-apo",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-cyberab": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-cyberab": {
+      "version": "1.0.1",
+      "integrity": "sha512-GHplGRarjxc7iLJzj/o3tb/5XGE2YwInonvm5273/5EpbVuTHpOfrX+1kYX055Pwf9pfRxgEQbPqBhF+ShRIdA==",
+      "license": "ISC"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+id: d8245369-a1cc-5569-8a11-748d4bf071e0
+code: CompTIA.Security+
+name: Security+
+description: 'Certification issued by CompTIA that assesses an individual''s foundational cybersecurity skills.'
+type: certification
+scope: individual
+status: active
+aliases:
+  - Security+
+  - Security Plus
+vendors:
+  - comptia
+standards: []
+qualifiesForRoles: []
+prerequisites: []

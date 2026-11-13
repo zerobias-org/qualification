@@ -1,0 +1,32 @@
+id: d7c63849-aee8-5fef-aa70-4ec1309815a4
+code: CMMC.CCP
+name: CMMC Certified Professional
+description: CMMC ecosystem certification for an individual who supports CMMC assessments. ISACA issues it as the Authorized CAICO for the CMMC program.
+type: certification
+scope: individual
+status: active
+url: 'https://www.isaca.org/cmmc'
+aliases:
+  - CCP
+vendors:
+  - isaca
+standards: []
+qualifiesForRoles: []
+prerequisites:
+  - CompTIA.Cloud+
+  - CompTIA.CySA+
+  - CompTIA.PenTest+
+  - CompTIA.Security+
+  - CompTIA.SecurityX
+  - ECC.CCISO
+  - FITSI.FITSP-A
+  - GIAC.GCSA
+  - GIAC.GSEC
+  - GIAC.GSLC
+  - GIAC.GSNA
+  - ISACA.CISA
+  - ISACA.CISM
+  - ISC2.CGRC
+  - ISC2.CISSP
+  - ISC2.CISSP-ISSEP
+  - Mile2.CISSO

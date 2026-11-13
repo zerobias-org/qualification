@@ -1,0 +1,14 @@
+id: 93c63eb6-f9cf-5719-ba43-e650f5da12a0
+code: ISC2.CISSP
+name: Certified Information Systems Security Professional
+description: 'Certification issued by ISC2 that assesses an individual''s knowledge and experience across information security.'
+type: certification
+scope: individual
+status: active
+aliases:
+  - CISSP
+vendors:
+  - isc2
+standards: []
+qualifiesForRoles: []
+prerequisites: []

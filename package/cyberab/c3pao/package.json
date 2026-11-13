@@ -1,0 +1,31 @@
+{
+  "name": "@zerobias-org/qualification-cyberab-c3pao",
+  "version": "1.0.0",
+  "description": "CMMC Third-Party Assessment Organization qualification artifact",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/qualification.git",
+    "directory": "package/cyberab/c3pao/"
+  },
+  "scripts": {
+    "correct:deps": "tsx ../../../scripts/correctDeps.ts"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org"
+  },
+  "files": [
+    "index.yml",
+    "logo.*",
+    "npm-shrinkwrap.json"
+  ],
+  "zerobias": {
+    "dataloader-version": "3.29.26",
+    "import-artifact": "qualification",
+    "package": "cyberab.c3pao.qualification"
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-cyberab": "*"
+  }
+}
