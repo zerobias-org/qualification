@@ -1,0 +1,34 @@
+id: d8245369-a1cc-5569-8a11-748d4bf071e0
+code: CompTIA.Security+
+name: Security+
+description: 'Certification issued by CompTIA that assesses an individual''s foundational cybersecurity skills.'
+type: certification
+scope: individual
+status: active
+aliases:
+  - Security+
+  - Security Plus
+vendors:
+  - comptia
+standards: []
+qualifiesForRoles:
+  - dd_wrl_005
+  - dd_wrl_006
+  - dd_wrl_007
+  - dd_wrl_008
+  - io_wrl_002
+  - io_wrl_003
+  - io_wrl_004
+  - io_wrl_005
+  - io_wrl_007
+  - og_wrl_002
+  - og_wrl_003
+  - og_wrl_011
+  - og_wrl_012
+  - og_wrl_014
+  - og_wrl_016
+  - pd_wrl_001
+  - pd_wrl_003
+  - pd_wrl_004
+  - pd_wrl_007
+prerequisites: []

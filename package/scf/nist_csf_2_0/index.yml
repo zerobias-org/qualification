@@ -1,0 +1,15 @@
+id: 38c29405-20db-50c7-a90d-25a88e350543
+code: SCF.NIST-CSF-2.0
+name: SCF NIST Cybersecurity Framework 2.0 Certification
+description: SCF organizational certification baseline. An SCF 3PAO certifies an organization against the NIST Cybersecurity Framework 2.0.
+type: certification
+scope: organizational
+status: active
+aliases:
+  - NIST CSF 2.0 Certification
+vendors:
+  - scf
+standards:
+  - nist_csf_v2_scf
+qualifiesForRoles: []
+prerequisites: []

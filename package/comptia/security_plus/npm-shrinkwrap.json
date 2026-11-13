@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/qualification-comptia-security_plus",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/qualification-comptia-security_plus",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-comptia": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-comptia": {
+      "version": "1.0.2",
+      "integrity": "sha512-HXhO04zTwOFJvdkkT8Il2VyktHZiyLOLlJzvj5b7UvWAHZAhHn8mtRsnlz/gfjv4f8pBhcw61QfjqQ4lXBZ4MQ==",
+      "license": "ISC"
+    }
+  }
+}

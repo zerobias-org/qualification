@@ -1,0 +1,15 @@
+id: 3f0dad15-21c8-5215-97a8-f5478668dec1
+code: CYBERAB.RP
+name: Registered Practitioner
+description: Cyber AB registry listing for an individual who has completed Registered Practitioner training. It is not an independent assessment of competency.
+type: registration
+scope: individual
+status: active
+url: 'https://cyberab.org/CMMC-Ecosystem/Ecosystem-Roles'
+aliases:
+  - RP
+vendors:
+  - cyberab
+standards: []
+qualifiesForRoles: []
+prerequisites: []

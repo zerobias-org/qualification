@@ -1,0 +1,31 @@
+{
+  "name": "@zerobias-org/qualification-isc2-cgrc",
+  "version": "1.0.0",
+  "description": "Certified in Governance, Risk and Compliance qualification artifact",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/qualification.git",
+    "directory": "package/isc2/cgrc/"
+  },
+  "scripts": {
+    "correct:deps": "tsx ../../../scripts/correctDeps.ts"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org"
+  },
+  "files": [
+    "index.yml",
+    "logo.*",
+    "npm-shrinkwrap.json"
+  ],
+  "zerobias": {
+    "dataloader-version": "3.29.26",
+    "import-artifact": "qualification",
+    "package": "isc2.cgrc.qualification"
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-isc2": "*"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@zerobias-org/qualification-isc2-cissp",
+  "version": "1.0.0",
+  "description": "Certified Information Systems Security Professional qualification artifact",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/qualification.git",
+    "directory": "package/isc2/cissp/"
+  },
+  "scripts": {
+    "correct:deps": "tsx ../../../scripts/correctDeps.ts"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org"
+  },
+  "files": [
+    "index.yml",
+    "logo.*",
+    "npm-shrinkwrap.json"
+  ],
+  "zerobias": {
+    "dataloader-version": "3.29.26",
+    "import-artifact": "qualification",
+    "package": "isc2.cissp.qualification"
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-isc2": "*"
+  }
+}

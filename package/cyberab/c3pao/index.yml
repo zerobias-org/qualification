@@ -1,0 +1,15 @@
+id: 9badeead-2c50-5200-a943-5926230f48f5
+code: CYBERAB.C3PAO
+name: CMMC Third-Party Assessment Organization
+description: Cyber AB accreditation that authorizes an organization to conduct CMMC assessments of other organizations.
+type: accreditation
+scope: organizational
+status: active
+url: 'https://cyberab.org/CMMC-Ecosystem/Ecosystem-Roles'
+aliases:
+  - C3PAO
+vendors:
+  - cyberab
+standards: []
+qualifiesForRoles: []
+prerequisites: []

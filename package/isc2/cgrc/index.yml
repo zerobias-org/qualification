@@ -1,0 +1,15 @@
+id: 3cbf9e4f-74b0-55df-9120-a9bb4bd24a26
+code: ISC2.CGRC
+name: 'Certified in Governance, Risk and Compliance'
+description: 'Certification issued by ISC2 that assesses an individual''s ability to authorize and maintain information systems within a risk management framework. Formerly the Certified Authorization Professional (CAP).'
+type: certification
+scope: individual
+status: active
+aliases:
+  - CGRC
+vendors:
+  - isc2
+standards: []
+qualifiesForRoles: []
+prerequisites: []
+supersedes: ISC2.CAP

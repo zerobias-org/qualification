@@ -1,0 +1,13 @@
+id: {id}
+code: {qualificationCode}
+name: {name}
+description: {description}
+type: certification
+scope: individual
+status: active
+aliases: []
+vendors:
+  - {issuer}
+standards: []
+qualifiesForRoles: []
+prerequisites: []

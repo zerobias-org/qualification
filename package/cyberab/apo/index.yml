@@ -1,0 +1,15 @@
+id: ae2792a2-4aaf-53cd-a083-c59160befff5
+code: SCF.APO
+name: SCF Authorized Platform Organization
+description: 'Authorization for an organization to deliver a platform in the SCF ecosystem. It approves the holder to deliver, not to assess.'
+type: authorization
+scope: organizational
+status: active
+url: 'https://cyberab.org/CMMC-Ecosystem/Ecosystem-Roles'
+aliases:
+  - APO
+vendors:
+  - cyberab
+standards: []
+qualifiesForRoles: []
+prerequisites: []

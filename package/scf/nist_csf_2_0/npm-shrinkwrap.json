@@ -1,0 +1,43 @@
+{
+  "name": "@zerobias-org/qualification-scf-nist_csf_2_0",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/qualification-scf-nist_csf_2_0",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/framework-nist-csf-v2": "*",
+        "@zerobias-org/vendor-scf": "*"
+      }
+    },
+    "node_modules/@zerobias-org/framework-nist-csf-v2": {
+      "version": "2.0.4",
+      "integrity": "sha512-03E7SPBSfNPY+4q0jEKiB8RXPrniJNoeUuDhd7iO5T5piiSLh9IbJKge58biR4DOAHHc1VWUX6Ml7vujJpB9MA==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/suite-nist-csf": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/suite-nist-csf": {
+      "version": "2.0.1",
+      "integrity": "sha512-GdPssByjFG0quTvqW0pvwC9sHKF79vY3mXULjb4l557OnFnM+sJxctg9B4L9H/BDW6AY6Z2wNwBxcRTruWewCA==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-nist": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-nist": {
+      "version": "2.0.1",
+      "integrity": "sha512-NjIQ5u841I/1TAl3W9ogHMYPbywAuofDzibEawFXszvSgXiZ4j2tjIe38JmpHUrws/6wo3ij2TYxBA1GzbQtpw==",
+      "license": "ISC"
+    },
+    "node_modules/@zerobias-org/vendor-scf": {
+      "version": "1.0.3",
+      "integrity": "sha512-mfxbF5SD/tZkN7WlfaRGTT/KIQDcqP1zyto8A9T3fN4F27A654lB6M7tZVQpApt5TOeBqAh/kr3WTuItMebeVw==",
+      "license": "ISC"
+    }
+  }
+}
